@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+}
+#intro{
+    width: 100%;
+    height: 760px;
+    background-color: white;
+    padding: 30px 40px;
+    background: url("yjhftg.jpg") no-repeat top/cover;
+    
+}
+.Events{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+    background-color: white;
+}
+.infoo{
+    
+    padding-top: 20PX;
+}
+.Login{
+    color: greenyellow;
+}
+.intros{
+    color: white;
+    margin-top: 55px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 10%,20%,20%;
+}
+#team{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.buttons{
+    margin-top: 55px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.fun{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.icons{
+    margin: 0 20px 20px;
+    color: grey;
+}
+.icons:hover{
+    color: greenyellow;
+    
+}
+.bottom-container{
+    background-color: #66BFBF;
+    height: 150px;
+    padding: 30px;
+    /* font-family: 'Montserrat', sans-serif; */
+    
+
+
+}
+.footer-link{
+    margin: 0px 20px ;
+    color: #11999E;
+    text-decoration: none;
+    font-size: larger;
+}
+.copy{
+    margin: 20px 0;
+    color: #EAF6F6;
+    font-size: small;
+}
+.footer-link:hover{
+    color: #EAF6F6;
+}
+.title{
+    padding-top: 75px;
+    color: white;
+   
+}
+.intro{
+    color: white;
+    padding-top: 10%;
+    line-height: 200%;
+    font-size: larger;
+    /* text-align: left; */
+}

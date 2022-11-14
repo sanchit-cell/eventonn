@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+}
+#intro{
+    width: 100%;
+    
+    background-color: gray;
+    padding: 30px 40px;
+    
+    
+}
+.Events{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 100px;
+    background-color: white;
+}
+.his{
+    padding-right: 200px;
+    
+}
+.car{
+    margin-top: 50px;
+    
+    
+}
+.infoo{
+    padding-left: 30px;
+    padding-top: 20PX;
+    background-color: white;
+}
+.pages{
+    margin-left: 600px;
+    margin-top: 40px;
+}
+.icons{
+    margin: 0 20px 20px;
+    color: grey;
+}
+.icons:hover{
+    color: greenyellow;
+    
+}
+.bottom-container{
+    background-color: black;
+    height: 150px;
+    padding: 30px;
+    /* font-family: 'Montserrat', sans-serif; */
+    
+
+
+}
+.footer-link{
+    margin: 0px 20px ;
+    color: #11999E;
+    text-decoration: none;
+    font-size: larger;
+}
+.copy{
+    margin: 20px 0;
+    color: #EAF6F6;
+    font-size: small;
+}
+.footer-link:hover{
+    color: #EAF6F6;
+}
