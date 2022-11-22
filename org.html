@@ -97,11 +97,186 @@
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
+  <div class="card addd">
+    <h5 class="card-header">New event draft
+      <span><h6 >First, fill out basic event info. After this step, you can set up video conferencing, tickets, registration and much more.</h6></span>
+    </h5> <span class="close">&times;</span>
+
 
   <!-- Modal content -->
   <div class="modal-content first">
-    <span class="close">&times;</span>
-    <h2>Select Event</h2>
+    
+
+   
+   
+      
+      <div class="card-body">
+        <div class="card">
+          <h5 class="card-header">Select event type</h5>
+          <div class="card-body">
+            <div class="form-check for">
+              <br>
+            
+                <div class="row">
+                  <div class="col-lg-1">
+                      <input class="form-check-input " style="padding: 10px,10px;" type="radio" name="flexRadioDefault" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                      <br>
+                      <br>
+                      <i class="fa-regular fa-tag"></i>
+                  </div>
+                  <div class="col-lg-11">
+                      <h5>Ticketed Event Type</h5>
+                      <p>Offer paid or free tickets, set currency & tax. Perfect for classes, workshops, conferences.</p>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div class="form-check for">
+              <br>
+                  <div class="row">
+                      <div class="col-lg-1">
+                          <input class="form-check-input" style="padding: 10px,10px;" type="radio" name="flexRadioDefault" id="defaultCheck2" checked>
+              <label class="form-check-label" for="defaultCheck2">
+                          <br>
+                      <br>
+                          <i class="fa-regular fa-tag"></i>
+                      </div>
+                      <div class="col-lg-11">
+                          <h5>RSVP Event</h5>
+                          <p>Collect RSVPs, set a waitlist. Perfect for weddings, private events, parties.</p>
+                      </div>
+                    </div>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h5 class="card-header">Event name</h5>
+          <div class="card-body">
+            <div class="input-group mb-3">
+              
+              
+              <input type="text" class="form-control" placeholder="Give it a short,distinct name" aria-label="Event name" aria-describedby="basic-addon1">
+              
+            </div>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="card-header">
+            <nav class="navbar navbar-expand-lg bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Date and time</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-a2 ms-auto ">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"><div class="form-check form-switch">
+                        
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Time is TBD
+                        </label>
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                      </div></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="card-body">
+            <form class="row g-3">
+              <div class="col-md-3">
+                <label for="Date" class="form-label">Date</label>
+                <input type="Date" class="form-control" id="Date">
+              </div>
+              <div class="col-md-3">
+                <label for="Time
+                " class="form-label">Time</label>
+                <input type="Time" class="form-control" id="time">
+              </div>
+              <div class="col-3">
+                <label for="date" class="form-label">End date
+                </label>
+                <input type="date" class="form-control" id="date" >
+              </div>
+              <div class="col-3">
+                <label for="time" class="form-label">
+                  End time</label>
+                <input type="time" class="form-control" id="time" >
+              </div>
+              <div class="col-md-6">
+                <label for="Timezone" class="form-label">Timezone</label>
+                <input type="Timezone" class="form-control" id="Timezone">
+              </div>
+              <div class="col-md-6" >
+                <br>
+                
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Display timezone
+
+      </label>
+              </div>
+
+            </form>
+          </div>
+        </div>
+        <div class="card text-center">
+          <div class="card-header">
+            <nav class="navbar navbar-expand-lg bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Location</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-a2 ms-auto ">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"><div class="form-check form-switch">
+                        
+                        <label class="form-check-label" for="flexSwitchCheckChecked">
+                          Location is TBD
+                        </label>
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                      </div></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="card-body">
+            <h5 style="text-align: left;">Where is this event taking place?</h5>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+              <label class="form-check-label" style="text-align: left;" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label " style="text-align: left;" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+            </div>
+            <br>
+            <h5 style="text-align: left;">Event location</h5>
+            <br>
+            <div class="input-group flex-nowrap form-floating">
+              <span class="input-group-text" id="addon-wrapping">search</span>
+              <input type="location" class="form-control is-invalid" id="floatingInputInvalid" placeholder="Add an address or venue name" value="Add an address or venue name">
+            
+            </div>
+          </div>
+        </div>
+        <div class="position-absolute">
+          <div class="but">
+            <button type="button" class="btn btn-outline-primary">Cancel</button>
+            <input class="btn btn-primary" type="submit" value="Create">
+          </div>
+        </div>
+    </div>
+      </div>
+    
+    <!-- <h2>Select Event</h2>
     <hr>
     <div class="form-check for">
         <br>
@@ -123,25 +298,10 @@
         </label>
       </div>
       <br>
-      <div class="form-check for">
-        <br>
-            <div class="row">
-                <div class="col-lg-1">
-                    <input class="form-check-input" style="padding: 10px,10px;" type="radio" name="flexRadioDefault" id="defaultCheck2" checked>
-        <label class="form-check-label" for="defaultCheck2">
-                    <br>
-                <br>
-                    <i class="fa-regular fa-tag"></i>
-                </div>
-                <div class="col-lg-11">
-                    <h5>RSVP Event</h5>
-                    <p>Collect RSVPs, set a waitlist. Perfect for weddings, private events, parties.</p>
-                </div>
-              </div>
-        </label>
+       -->
+      
+      
       </div>
-  </div>
-
 </div>
 
 <script>

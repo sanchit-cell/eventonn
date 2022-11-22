@@ -9,44 +9,6 @@ body{
     
     
 }
-.product {
-	margin-bottom: 30px;
-}
-.product-inner {
-	box-shadow: 0 0 10px rgba(0,0,0,.2);
-	padding: 10px;
-}
-.product img {
-	margin-bottom: 10px;
-}
-.Events{
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 100px;
-    background-color: white;
-}
-.filter{
-    background-color: white;
-    margin: 200px,200px;
-}
-.his{
-    padding-right: 200px;
-    
-}
-.car{
-    margin-top: 50px;
-    
-    
-}
-.infoo{
-    padding-left: 30px;
-    padding-top: 20PX;
-    background-color: white;
-}
-.pages{
-    margin-left: 600px;
-    margin-top: 40px;
-}
 .icons{
     margin: 0 20px 20px;
     color: grey;
